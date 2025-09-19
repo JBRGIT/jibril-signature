@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-signature-canvas": "^1.1.0-alpha.2",
+    "signature_pad": "^5.1.1"
+  }
+}
