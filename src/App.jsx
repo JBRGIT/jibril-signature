@@ -8,7 +8,7 @@ function App() {
   };
 
   const save = () => {
-    const dataURL = sigCanvas.current.getCanvas().toDataURL("image/png");
+    const dataURL = sigCanvas.current.toDataURL("image/png");
     const link = document.createElement("a");
     link.href = dataURL;
     link.download = "signature.png";
